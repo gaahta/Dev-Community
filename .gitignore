@@ -1,1 +1,22 @@
-Dev-Community\IntroTS\node_modules
+node_modules
+
+# Ignorar a pasta node_modules
+Dev-Community/IntroTS/node_modules/
+
+# Ignorar arquivos de log
+*.log
+
+# Ignorar arquivos de configuração locais
+.env
+
+# Ignorar arquivos de compilação
+dist/
+build/
+
+# Ignorar diretórios de dependências de pacotes
+bower_components/
+jspm_packages/
+
+# Ignorar diretórios específicos do sistema operacional
+.DS_Store
+Thumbs.db
